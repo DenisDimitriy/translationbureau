@@ -1,0 +1,81 @@
+.header_area {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.articles {
+    padding-top: 100px;
+}
+
+.single-article {
+    margin-bottom: 20px;
+}
+
+.single-article .article-image {
+    float: right;
+    height: 150px;
+    margin-left: 20px;
+}
+
+.prev-page,
+.next-page {
+    font-size: 16px;
+}
+
+
+/*
+.prev-page {
+    float: left;
+}
+
+.next-page {
+    float: right;
+}
+*/
+
+.page-input {
+    width: 60px;
+    display: inline-block;
+    text-align: right;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.pagination-container {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.section_title {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .pagination-container .text-right {
+        text-align: center;
+    }
+    .pagination-container .text-left {
+        text-align: center;
+    }
+}
+
+
+.bg_image {
+    /*
+    margin: 0 auto;
+    width: 700px;
+    height: 800px;
+    padding: 30px;
+    background-position: 40px 40px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    */
+    margin: 0 auto;
+    background-image: url(./img/bg-grange.jpg);
+    background-attachment: fixed;
+}
+
+
+.bg_shadow {
+    background-color: rgba(255, 255, 255, 0.7);
+}
